@@ -12,14 +12,30 @@
     
     <section id="luis">
         <div class="carousel-container">
-            <div class="carousel-text-container">
-                <h1>Welcome!</h1>
-                <h2>This is a subheading to welcome new clients</h2>
-                <a href="#"><button>Start Here</button></a>
+            <div class="imgs">
+                <!-- IMG AND TEXT -->
+                <div class="img-container img-one" data-slide="slide-one">
+                    <div class="carousel-text-container">
+                        <h1>Welcome!</h1>
+                        <h2>This is a subheading to welcome new clients</h2>
+                        <a href="#"><button>Start Here</button></a>
+                    </div>
+                    <img src="assets/imgs/img-one.png" alt="Bride & Groom Kissing" class="carousel-img-one">
+                </div>
+
+                <!-- IMG -->
+                <div class="img-container display-none" data-slide="slide-two">
+                    <img src="assets/imgs/img-two.jpg" alt="Bride & Groom Kissing" class="carousel-img-one">
+                </div>
+
+                <!-- IMG -->
+                <div class="img-container display-none" data-slide="slide-three">
+                    <img src="assets/imgs/img-three.jpg" alt="Bride & Groom Kissing" class="carousel-img-one">
+                </div>
             </div>
-            <img src="assets/imgs/img-one.png" alt="Bride & Groom Kissing" class="carousel-img-one">
-            <img src="assets/svg/arrow.svg" alt="Right Arrow" class="right-arrow arrow">
-            <img src="assets/svg/arrow.svg" alt="Left Arrow" class="left-arrow arrow">
+
+            <img src="assets/svg/arrow.svg" alt="Right Arrow" id="right-arrow" class="arrow">
+            <img src="assets/svg/arrow.svg" alt="Left Arrow" id="left-arrow" class="arrow">
         </div>
     </section>
 
@@ -29,9 +45,10 @@
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, alias?</h3>
             <a href="#"><button>Start Here</button></a>
         </div>
-        <img src="assets/imgs/img-footer.jpg" alt="Photo of person taking a Macroon" class="footer-img">
+        <img src="assets/imgs/img-footer.jpeg" alt="Photo of person taking a Macroon" class="footer-img">
     </section>
 
 </body>
+<script src="carousel.js"></script>
 <!-- <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
 </html>
