@@ -1,13 +1,21 @@
 #main-header {
     background-color: @off-white;
-    height: 100px;
+    height: 90px;
+}
+#luis {
+    margin-top: 20px;
+    margin-bottom: 200px;
+    padding: 0 50px;
+
+    @media(max-width: 500px) {
+        padding: 0 50px;
+    }
 }
 
 .carousel-container {
-    max-width: 800px;
-    margin: 0 auto;
-    margin-top: 30px;
+    max-width: 1020px;
     position: relative;
+    margin: 0 auto;
     
 }
 .carousel-img-one {
@@ -27,6 +35,8 @@
 
     &:hover {
         cursor: pointer;
+        top: 38.5%;
+        transition: .25s ease-in-out;
     }
 }
 .right-arrow {
@@ -68,8 +78,23 @@
         width: 100px;
         height: 30px;
         padding: 5px;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+
+        &:hover {
+            background-color: @cream;
+            color: @dark-blue;
+            cursor: pointer;
+            color: @dark-blue;
+            font-weight: bold;
+            transition: .25s ease;
+        }
     }
-    @media(max-width: 500px) {
+    @media(max-width: 600px) {
         background-color: rgba(255, 255, 255, 0.5);
+        left: 50%;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.253);
+    }
+    @media(max-width: 450px) {
+        width: 200px;
     }
 } 
